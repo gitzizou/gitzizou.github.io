@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Gitzizou</title>
+	<meta name="description" content="gitzizou на github"> 
+	<meta name="keywords" content="gitzizou, сайт на github, пример сайта на github">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="" type="image/x-icon">
+
+	<script>
+          function digitalWatch() {
+            var date = new Date();
+            var H = date.getHours();
+            var m = date.getMinutes();
+            var s = date.getSeconds();
+            if (H<10) {H = "0" + H};
+            if (m<10) {m = "0" + m};
+            if (s<10) {s = "0" + s};
+          
+            document.getElementById("digital_watch").innerHTML = H + ":" + m + ":" + s;
+            setTimeout("digitalWatch()", 1000);
+          }
+      
+  </script>
+</head>
+<body>
+	Время на JS: <span id="digital_watch" style="color:red; font-size: 20px;"
+></span>
+  <script>digitalWatch();</script>
+</body>
+</html>
