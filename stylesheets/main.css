@@ -377,15 +377,6 @@ a:hover {
 		.col {
 			width: 99.99%;
 		}
-		
-		.works__item:focus .works__content {
-			z-index: 1;
-			opacity: 1;
-			text-decoration: none;
-			transition: 1s all linear;
-			animation:animateleft;
-			animation-duration: 1s;
-		}
 
 		.main-footer {
 			font-size: 14px;
