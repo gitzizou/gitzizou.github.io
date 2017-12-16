@@ -2,32 +2,382 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Gitzizou</title>
-	<meta name="description" content="gitzizou на github"> 
-	<meta name="keywords" content="gitzizou, сайт на github, пример сайта на github">
+	<title>Документ</title>
+	<meta name="description" content="Описание страницы"> 
+	<meta name="keywords" content="Ключевые слова">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="" type="image/x-icon">
+	<link rel="stylesheet" href="stylsheets/main.css">
 
-	<script>
-          function digitalWatch() {
-            var date = new Date();
-            var H = date.getHours();
-            var m = date.getMinutes();
-            var s = date.getSeconds();
-            if (H<10) {H = "0" + H};
-            if (m<10) {m = "0" + m};
-            if (s<10) {s = "0" + s};
-          
-            document.getElementById("digital_watch").innerHTML = H + ":" + m + ":" + s;
-            setTimeout("digitalWatch()", 1000);
-          }
-      
-  </script>
+	<style>
+
+
+
+	</style>
+
 </head>
 <body>
-	Время на JS: <span id="digital_watch" style="color:red; font-size: 20px;"
-></span>
-  <script>digitalWatch();</script>
+
+	<header class="header">
+		
+	</header>
+
+	<main class="page-content">
+		
+		<!--//////////PORTFOLIO///////////-->
+		<section id="myPortfolio" class="portfolio">			
+			<h2 class="portfolio__title"><span>Мои работы</span></h2>
+			
+			<div class="portfolio__filter">
+				<b class="portfolio__filter-item tablink" onclick="openCats(event, 'cat_all')">Все</b> <span class="slash">/</span>
+				<i class="portfolio__filter-item tablink" onclick="openCats(event, 'cat_rip')">Копии</i> <span class="slash">/</span>
+				<i class="portfolio__filter-item tablink" onclick="openCats(event, 'cat_mark')">Верстка</i> 
+			</div>
+			
+			<div id="cat_all" class="works all_cats">
+				<div class="row">
+					
+					<div class="col">
+						<div class="works__item">
+							<img src="images/test.jpg" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="works__item">
+							<img src="images/test.jpg" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="works__item">
+							<img src="images/test.jpg" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="works__item">
+							<img src="images/test.jpg" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="works__item">
+							<img src="images/test.jpg" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="works__item">
+							<img src="images/test.jpg" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="works__item">
+							<img src="images/test.jpg" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="works__item">
+							<img src="images/test.jpg" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="works__item">
+							<img src="images/test.jpg" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="works__item">
+							<img src="images/test.jpg" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+				
+				</div>
+			</div>
+
+			<div id="cat_rip" class="works">
+				<div class="row">
+					
+					<div class="col">
+						<div class="works__item">
+							<img src="images/01-1.jpg" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="works__item">
+							<img src="images/01-1.jpg" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="works__item">
+							<img src="images/01-1.jpg" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="works__item">
+							<img src="images/01-1.jpg" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="works__item">
+							<img src="images/01-1.jpg" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="works__item">
+							<img src="images/01-1.jpg" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+				
+				</div>
+			</div>
+
+			<div id="cat_mark" class="works">
+				<div class="row">
+					
+					<div class="col">
+						<div class="works__item">
+							<img src="images/learn-html-css_1.png" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="works__item">
+							<img src="images/learn-html-css_1.png" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="works__item">
+							<img src="images/learn-html-css_1.png" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="works__item">
+							<img src="images/learn-html-css_1.png" alt="тестовая">
+							<div class="works__content">
+								<h3 class="works__title">Первая работа.</h3>
+								<a href="#" class="works__link-description">
+									+
+								</a>
+								<a href="#" class="works__link-site">
+									...
+								</a>
+							</div>
+						</div>
+					</div>
+				
+				</div>
+			</div>
+		</section>
+		<!--//////////{End} PORTFOLIO///////////-->
+
+	</main>
+
+	<footer class="main-footer">
+		<p><a href="" class="main-footer__link">artromanichev.github.io</a> | 2017 &copy; Все права защищены</p>
+	</footer>
+
+	<script>
+		function openCats(evt, catName) {
+		    var i, x, tablinks;
+		    x = document.getElementsByClassName("works");
+			    for (i = 0; i < x.length; i++) {
+		      	x[i].style.display = "none";  
+			    }
+
+		    tablinks = document.getElementsByClassName("tablink");
+			  	for (i = 0; i < x.length; i++) {
+			      tablinks[i].className = tablinks[i].className.replace("active", "");
+  				}
+
+		    document.getElementById(catName).style.display = "block";
+		    evt.currentTarget.className += " active";
+		}
+</script>
+	
 </body>
 </html>
